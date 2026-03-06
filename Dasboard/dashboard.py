@@ -43,7 +43,7 @@ def create_rfm_df(df):
 
 
 # Prepare dataframe
-day_df = pd.read_csv("Dashboard/day_clean.csv")
+day_df = pd.read_csv("Dasboard/day_clean.csv")
 
 # Ensure the date column are of type datetime
 datetime_columns = ["date"]
@@ -58,7 +58,7 @@ max_date = day_df["date"].max()
 
 with st.sidebar:
     # Adding a company logo
-    st.image("dashboard/logo.png") # Assuming you have a logo.png in the dashboard directory
+    st.image("Dashboard/logo.png") # Assuming you have a logo.png in the dashboard directory
 
     # Retrieve start_date & end_date from date_input
     start_date, end_date = st.date_input(
