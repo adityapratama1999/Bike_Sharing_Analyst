@@ -153,4 +153,3 @@ ax[1].tick_params(axis ='x', labelsize=30)
 ax[1].ticklabel_format(style='plain', axis='y')
 
 st.pyplot(fig)
-
