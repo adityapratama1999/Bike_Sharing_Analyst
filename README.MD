@@ -57,6 +57,5 @@ cd dashboard
 4. Run with Streamlit
 
 ```
-streamlit run dashboard.py
-```
 https://bikesharinganalyst-cyowegkyxrex6dpbgtk5yj.streamlit.app/
+```
